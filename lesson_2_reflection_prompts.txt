@@ -17,15 +17,21 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+	
+	When i want to build new features, build some thimg on the current reository but don't want to change it.
+	Each branch has it's own history - from the moment it's created.
 
 
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together?
+	It's created base on node, the next node will hold the adress of the current node, Head jump to the new current node.
 
-Why do we represent it in
-the diagram the way we do?
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	A new commit, older commits of them will be ordered base on the time them created, the content of them is merged according to the parent node of all of them - the line in the parent but removed in any branch will not existed in the final
+
+	To make....
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
